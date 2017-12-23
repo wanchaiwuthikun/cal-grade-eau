@@ -18,6 +18,7 @@ function addName() {
     $('#name').val('');
     $('#score').val('');
     $('#add').attr("disabled", true);
+    $('#show').removeAttr("disabled");
     console.table(data)
 }
 
