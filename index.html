@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tutor grade at eau</title>
+</head>
+<body>
+    <label for="name">ชื่อ</label>
+    <input class="target" name="name" type="text" id="name" required>
+    <label for="score">เกรด</label>
+    <input class="target" name="score" type="number" id="score" required min="1" max="100">
+    <button type="button" onclick="addName()" id="add" disabled> Add Name </button>
+    <button type="button" onclick="showTable()"> Show Grade </button>
+    <hr>
+    <div id="table"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
