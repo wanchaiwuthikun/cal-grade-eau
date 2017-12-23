@@ -10,7 +10,7 @@ $( ".target" ).change(function() {
         }
   });
 function addName() {
-    debugger
+   
     let name = $('#name').val()
     let score = $('#score').val()
     let scoreName = { name: name, score:score } 
