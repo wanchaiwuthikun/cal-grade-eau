@@ -10,12 +10,14 @@ $( ".target" ).change(function() {
         }
   });
 function addName() {
+    debugger
     let name = $('#name').val()
     let score = $('#score').val()
     let scoreName = { name: name, score:score } 
     data.push(scoreName)
     $('#name').val('');
     $('#score').val('');
+    $('#add').attr("disabled", true);
     console.table(data)
 }
 
